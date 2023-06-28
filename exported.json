@@ -12,7 +12,7 @@
       },
       "primary-800": {
         "$type": "color",
-        "$value": "#0cf03e"
+        "$value": "#f00c0c"
       },
       "bg-50": {
         "$type": "color",
