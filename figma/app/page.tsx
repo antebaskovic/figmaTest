@@ -16,6 +16,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             By <p className="text-customColor">dfhdaklsjdklsjakdlaklds</p>
+            By <p className="text-primary800">dfhdaklsjdklsjakdlaklds</p>
           </a>
         </div>
       </div>
