@@ -1,0 +1,60 @@
+[
+  {
+    "fileName": "Collection 1.Mode 1.tokens.json",
+    "body": {
+      "Color": {
+        "$type": "color",
+        "$value": "#e2e2e2"
+      },
+      "secondary-900": {
+        "$type": "color",
+        "$value": "#ffffff"
+      },
+      "spacing": {
+        "$type": "number",
+        "$value": 49
+      },
+      "primary-800": {
+        "$type": "color",
+        "$value": "#2ac09c"
+      },
+      "bg-50": {
+        "$type": "color",
+        "$value": "#e2e2e2"
+      }
+    }
+  },
+  {
+    "fileName": "Tokens.Mode 1.tokens.json",
+    "body": {
+      "bacground-50": {
+        "$type": "color",
+        "$value": "#e2e2e2"
+      },
+      "Color": {
+        "$type": "color",
+        "$value": "#ffffff"
+      },
+      "xl": {
+        "$type": "number",
+        "$value": 50
+      },
+      "bg-50": {
+        "$type": "color",
+        "$value": "#ffffff"
+      },
+      "bg-primary": {
+        "$type": "color",
+        "$value": "{primary-800}"
+      },
+      "sm": {
+        "$type": "number",
+        "$value": 20
+      },
+      "bg-main": {
+        "$type": "color",
+        "$value": "{bg-50}"
+      }
+    }
+  }
+]
