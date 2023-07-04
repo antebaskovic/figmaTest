@@ -29,7 +29,7 @@
       },
       "xl": {
         "$type": "number",
-        "$value": 50
+        "$value": "{spacing}"
       },
       "bg-primary": {
         "$type": "color",

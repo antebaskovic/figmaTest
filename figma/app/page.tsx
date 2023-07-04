@@ -16,7 +16,8 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             By <p className="text-customColor">dfhdaklsjdklsjakdlaklds</p>
-            By <p className="text-primary800">dfhdaklsjdklsjakdlaklds</p>
+            By <p className="text-Background-50">dfhdaklsjdklsjakdlaklds</p>
+            By <p className="text-Color pt-6xl">dfhdaklsjdklsjakdlaklds</p>
           </a>
         </div>
       </div>
@@ -62,7 +63,7 @@ export default function Home() {
               -&gt;
             </span>
           </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50 gap-xl`}>
             Learn about Next.js in an interactive course with&nbsp;quizzes!
           </p>
         </a>

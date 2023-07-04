@@ -1,7 +1,6 @@
 /** @type {import('tailwindcss').Config} */
-console.log("dddd");
-const colors = require("../exported.json");
-console.log(colors[0].body["primary-800"].$value);
+import { parseJson } from "../parseJSON";
+const { spacing, colors } = parseJson();
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -12,8 +11,10 @@ module.exports = {
     extend: {
       colors: {
         customColor: "#F00CD9",
-        primary800: colors[0].body["primary-800"].$value,
+        ...colors,
       },
+      spacing: {
+        ...spacing},
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
